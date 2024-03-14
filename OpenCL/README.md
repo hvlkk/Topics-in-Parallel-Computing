@@ -14,7 +14,7 @@ Here, OpenCL was used to parallelise the algorithm, with the computations happen
 
 To run this project, a gcc compiler is again required, and OpenMP needs to be enabled in the settings of the IDE you choose to run the project on. The version of gcc that was used throughout the development of the project and the project has been confirmed to work on is 8.1.0. In addition, OpenCL needs to have been installed, and the necessary libraries need to have been linked to the project. Refer to the [OpenCL website](https://www.khronos.org/opencl/) for more information.
 
-As a further warning, the programs (gaussian-blur.c) is configured to use 4 threads. Therefore, if the CPU of the machine you are using to run this project has fewer than 4 cores, you are advised to replace `num_threads(4)` with `num_threads(x)` before you run each program, where x represents the amount of cores your CPU has.
+As a further warning, the program (gaussian-blur.c) is configured to use 4 threads. Therefore, if the CPU of the machine you are using to run this project has fewer than 4 cores, you are advised to replace `num_threads(4)` with `num_threads(x)` before you run each program, where x represents the amount of cores your CPU has.
 
 ## License
 
